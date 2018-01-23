@@ -1,0 +1,38 @@
+<view class="page">
+    <view class="page__bd">
+        <view class="userinfo weui-panel">
+            <view class="weui-panel__bd">
+                <view class="weui-media-box weui-media-box_text">
+                    <view class="userinfo-nickname weui-media-box__title weui-media-box__title_in-text">新干线汽车美容用品店</view>
+                </view>
+            </view>
+        </view>
+        <view class="weui-cells__title">订单消费</view>
+        <view class="weui-cells weui-cells_after-title">
+            <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">消费订单</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access">所有订单</view>
+            </navigator>
+            <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">服务评价</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access">所有评价</view>
+            </navigator>
+        </view>
+        <view class="weui-cells__title">门店信息</view>
+        <view class="weui-cells weui-cells_after-title">
+            <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">基础资料</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>
+            <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">地址管理</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>
+            
+        </view>
+        
+        <view class="button-sp-area">
+            <button class="weui-btn" type="default" plain="true" bindtap="readQRcode">扫一扫</button>
+        </view>
+    </view>
+</view>

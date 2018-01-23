@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/register/register",
+    "pages/message/message",
+    "pages/logs/logs" 
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "汽车服务-门店版",
+    "navigationBarTextStyle":"black"
+  }
+}
